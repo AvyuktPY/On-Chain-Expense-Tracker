@@ -6,8 +6,11 @@ Solidity Task
 
 2 Check if a user is registered
 Returns true or false based on whether a user has registered.
-function isRegistered(address _addr) public view returns (bool) {
+
+function isRegistered(address _addr) public view returns (bool) 
+{
     return people[_addr].walletAddress != address(0);
+    
     }
 
 
